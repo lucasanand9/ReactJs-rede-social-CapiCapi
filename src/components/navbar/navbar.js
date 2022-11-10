@@ -7,6 +7,7 @@ import searchIcom from './icons/search.png';
 import cogIcom from './icons/cog.png';
 import facebookIcon from './icons/facebook.png';
 import instagramIcon from './icons/instagram.png';
+import { NavLink } from 'react-router-dom';
 
 export default function navbar() {
     return (
@@ -18,8 +19,13 @@ export default function navbar() {
             <hr className="line-vertical"></hr>
 
             {/* home */}
+            <NavLink to="/" exact>
             <img className='home-icon' src={homeIcon}></img>
+            </NavLink>
+            <NavLink to="/" exact>
             <h4 className='feed'>Feed</h4>
+            </NavLink>
+
 
             {/* perfil */}
             <img className='user-icon' src={userIcon}></img>
@@ -31,7 +37,9 @@ export default function navbar() {
 
             {/* configuracao */}
             <img className='cog-icon' src={cogIcom}></img>
+            <NavLink to="/configuracao" exact>
             <h4 className='cog'>Configuração</h4>
+            </NavLink>
 
             <img className='facebook-icon' src={facebookIcon}></img>
             <img className='instagram-icon' src={instagramIcon}></img>

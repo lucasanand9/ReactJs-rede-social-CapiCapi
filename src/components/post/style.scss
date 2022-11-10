@@ -1,0 +1,83 @@
+$color1: #d10382;
+$color2: #8300d2;
+$color3: #ea0056;
+$color4: #4d00ef;
+$color5: #f80032;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.div-postagem {
+    position: relative;
+    left: 35%;
+    margin-top: 3%;
+
+    background-color:rgba(210, 45, 214, 0.16);;
+    height: 500px;
+    width: 500px;
+
+    border-radius: 20px;
+}
+
+.img-usuario {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    top: 15px;
+    left: 25px;
+}
+
+.username {
+    position: relative;
+    left: 84px;
+    bottom: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    
+    color: #64127A ;
+    font-size: 20px;
+}
+
+.line-horizontal-top {
+    position: absolute;
+    width: 90%;
+    top: 70px;
+    left: 4%;
+
+    border: 1px solid #000000;
+    background-color: #000000;
+    opacity: 40%;
+    border-radius: 20px;
+}
+
+.div-legend-post {
+    position: relative;
+    top: 14px;
+
+}
+
+.legend-post {
+    position: relative;
+    height: 340px;
+    width: 430px;
+    left: 7.4%;
+    
+
+    font-family: 'Inter';
+    font-style: normal;
+    overflow-wrap: break-word;
+}
+
+.line-horizontal-bottom {
+    position: absolute;
+    width: 99.6%;
+    bottom: 50px;
+
+    border: 1px solid #000000;
+    background-color: #000000;
+    opacity: 40%;
+    border-radius: 20px;
+}

@@ -16,5 +16,6 @@ export default function postUsuarioLogin(){
     .then((response) => response.text())
     .then((text) => {
         sessionStorage.setItem('userToken', text)
+        window.location.href="http://localhost:3000/"
     })
 }

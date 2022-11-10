@@ -9,16 +9,17 @@
     top: 8.89%;
     bottom: 8.98%;
 
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+
     background: #EBEBEB;
     border-radius: 3px;
 }
 
 .text-login {
     position: absolute;
-    left: 35%;
-    right: 35%;
-    top: 15%;
-    bottom: 65.65%;
+    top: 45px;
 
     font-family: 'Inter';
     font-style: normal;
@@ -89,6 +90,6 @@
     cursor: pointer;
 }
 
-.button-submit:hover{
+.button-submit:hover {
     transform: scale(1.03);
 }

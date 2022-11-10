@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+}
+
+.div-registrar {
+position: absolute;
+left: 28%;
+right: 28%;
+top: 12%;
+bottom: 12%;
+
+justify-content: center;
+flex-direction: row;
+display: flex;
+
+background-color: #ebebeb;
+border-radius: 3px;
+}
+
+.text-registrar {
+    position: absolute;
+    top: 40px;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 74px;
+    line-height: 127px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    background: linear-gradient(180deg, #BE15AD 20.66%, rgba(174, 16, 188, 0) 67.01%), linear-gradient(180deg, #BE15AD 20.66%, rgba(174, 16, 188, 0) 67.01%), linear-gradient(180deg, #BE15AD 16.49%, rgba(174, 16, 188, 0.82) 31.08%, rgba(65, 28, 125, 0.82) 44.62%, rgba(189, 10, 117, 0.93) 58.68%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-blend-mode: darken;
+}
+
+.div-campos {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.usuario {
+    outline: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}

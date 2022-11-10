@@ -28,8 +28,12 @@ export default function navbar() {
 
 
             {/* perfil */}
+            <NavLink to="/perfil" exact>
             <img className='user-icon' src={userIcon}></img>
+            </NavLink>
+            <NavLink to="/perfil" exact>
             <h4 className='user'>Perfil</h4>
+            </NavLink>
 
             {/* pesquisa */}
             <img className='search-icon' src={searchIcom}></img>

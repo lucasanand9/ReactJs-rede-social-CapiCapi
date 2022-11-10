@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+.title-editarUsuario {
+    position: absolute;
+    width: 349px;
+    height: 65px;
+    left: 510px;
+    top: 95px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 65px;
+
+    color: #64127A;
+}
+
+.title-imagem {
+    position: absolute;
+    width: 200px;
+    height: 34px;
+    left: 514px;
+    top: 231px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.img-perfil {
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    left: 530px;
+    top: 278px;
+
+    border-radius: 50%;
+
+    background: #64127A;
+}
+
+.image-upload {
+    position: absolute;
+    top: 430px;
+    left: 690px;
+}
+
+.image-upload>input {
+    display: none;
+}
+
+.title-usuario {
+    position: absolute;
+    width: 102px;
+    height: 34px;
+    left: 508px;
+    top: 535px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.input-usuario {
+    position: absolute;
+    width: 350px;
+    height: 52px;
+    left: 528px;
+    top: 578px;
+
+    outline: 0;
+    border: 0;
+    padding-left: 10px;
+    font-size: 20px;
+
+    background: #E3E3E3;
+    border-radius: 5px;
+}
+
+.title-senha {
+    position: absolute;
+    width: 102px;
+    height: 34px;
+    left: 508px;
+    top: 680px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+.input-senha {
+    position: absolute;
+    width: 350px;
+    height: 52px;
+    left: 528px;
+    top: 723px;
+
+    outline: 0;
+    border: 0;
+    padding-left: 10px;
+    font-size: 20px;
+
+    background: #E3E3E3;
+    border-radius: 5px;
+}
+
+.button-alteracoes {
+    position: absolute;
+    width: 270px;
+    height: 70px;
+    left: 570px;
+    top: 820px;
+
+    border: 0;
+    font-size: 20px;
+    color: white;
+
+    background: #3C1174;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.button-alteracoes:hover {
+    transform: scale(1.05);
+}
+
+.button-excluir {
+    position: absolute;
+    width: 161px;
+    height: 57px;
+    left: 1600px;
+    top: 820px;
+
+    border: 0;
+    cursor: pointer;
+
+    font-size: 20px;
+    color: white;
+
+    background: #FF0000;
+    border-radius: 25px;
+}
+
+.button-excluir:hover {
+    transform: scale(1.04);
+}

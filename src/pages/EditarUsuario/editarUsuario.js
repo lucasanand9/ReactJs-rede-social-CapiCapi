@@ -13,7 +13,7 @@ export default function editarUsuario() {
 
             {/* edição de imagem de perfil */}
             <h3 className="title-imagem">Foto de perfil</h3>
-            <img className="img-perfil"></img>
+            <img className="img-perfil-editar"></img>
             <div class="image-upload">
                 <label for="file-input">
                     <img src={editPerfil}/>

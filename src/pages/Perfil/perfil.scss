@@ -12,6 +12,7 @@
     width: 80vw;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     
 }
 .card-perfil{
@@ -19,8 +20,7 @@
     justify-content: center;
     width: 80%;
     height: 30%;
-    background-color: 
-    #D9D9D9;
+    background-color: #D9D9D9;
     margin-top: 3%;
     border-radius: 8px;
 }
@@ -29,9 +29,43 @@
     height: 180px;
     background-color: purple;
     border-radius: 50%;
-    margin-top: 10%;
+    margin-top: 15vh;
+    
 }
 
 .nome-perfil{
-    
+    position: absolute;
+    margin-top: 39vh;
+    border-bottom: solid 2px #64127A;
+
+}
+
+.postagens-perfil{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+
+}
+
+.filtro-perfil{
+    width: 15%; 
+    text-align: center;
+    align-items: center;
+
+}
+
+.filtro-dropdown-perfil{
+    width: 10vw;
+    height: 3vh;
+    border-radius: 10px;
+    border: none;
+    background-color: #D9D9D9;;
+}
+
+.trabalhos-perfil{
+    display: flex;
+    width: 85%;
+    justify-content: start;
+    align-items: flex-start;
+  
 }

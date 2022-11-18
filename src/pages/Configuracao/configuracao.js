@@ -2,6 +2,7 @@ import React from "react";
 import './style.scss';
 import NavBar from '../../components/navbar/navbar';
 import Logout from './script';
+import { NavLink } from 'react-router-dom';
 
 export default function configuracao() {
     return (
@@ -20,9 +21,9 @@ export default function configuracao() {
                 </label>
             </div>
 
-            {/* editar usuario */}
-            <h3 className="editar-usuario">Editar usuario</h3>
-
+            <NavLink to="/editarUsuario" exact>
+                <h3 className="editar-usuario">Editar usuario</h3>
+            </NavLink>
 
             <button onClick={() => Logout()} className="logout-button">Sair</button>
         </div>

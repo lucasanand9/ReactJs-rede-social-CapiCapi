@@ -3,23 +3,31 @@ import './style.scss';
 import facebookIcon from '../../components/navbar/icons/facebook.png';
 import instagramIcon from '../../components/navbar/icons/instagram.png';
 import postUsuarioLogin from './postUsuario';
+import { NavLink } from 'react-router-dom';
 
 export default function Feed() {
     return (
+        <div>
+            <div className='align'>
+                <div className='div-formLogin'>
+                    <div className='div-title-login'>
+                        <p className='title-login'>Login</p>
+                    </div>
+                    <div className='div-form'>
+                        <div className='div-campos'>
+                            <input className='input1' placeholder='Email' type={'email'}></input>
+                            <input className='input2' placeholder='Senha' type={'password'}></input>
+                        </div>
+                        <button className='buttonSubmit'>Entrar</button>
+                        <p className='telaRegistrar'>Não tem conta?<NavLink to="/registrar" exact> Registrar-se</NavLink></p>
+                    </div>
 
-        <div className='div-login'>
-            <h3 className='text-login'>
-                Login
-            </h3>
-
-            <input id='email' type={"email"} placeholder='Email' className='input-email'></input>
-            <input id='senha' type={"password"} placeholder='Senha' className='input-senha'></input>
-
-            <button  onClick={postUsuarioLogin} className='button-submit' type={"submit"}>Entrar</button>
-
-
-            <img className='facebook-icon' src={facebookIcon}></img>
-            <img className='instagram-icon' src={instagramIcon}></img>
+                </div>
+            </div>
+            <div className='div-iconsLogin'>
+                <img src={facebookIcon}></img>
+                <img src={instagramIcon}></img>
+            </div>
         </div>
 
     );

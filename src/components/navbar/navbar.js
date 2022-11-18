@@ -11,43 +11,36 @@ import { NavLink } from 'react-router-dom';
 
 export default function navbar() {
     return (
-        <div className="navbar-body">
+        <div>
+            <div className='div-navBar'>
+                <div className='div-logo'>
+                    <img className='logo-img' src={logoImg}></img>
+                </div>
+                <div className='div-navegacao'>
+                    <ul>
+                        <li>
+                            <img src={homeIcon}></img><a className='feed'>Feed</a>
+                        </li>
+                        <li>
+                            <img src={userIcon}></img><a className='user'>Perfil</a>
+                        </li>
+                        <li>
+                            <img src={searchIcom}></img><a className='search'>Pesquisa</a>
+                        </li>
+                        <li>
+                            <img src={cogIcom}></img><a className='cog'>Configuração</a>
+                        </li>
 
-            <img className='logo-img' src={logoImg}></img>
-
-            {/* linha vertical marcando  */}
-            <hr className="line-vertical"></hr>
-
-            {/* home */}
-            <NavLink to="/" exact>
-            <img className='home-icon' src={homeIcon}></img>
-            </NavLink>
-            <NavLink to="/" exact>
-            <h4 className='feed'>Feed</h4>
-            </NavLink>
-
-
-            {/* perfil */}
-            <NavLink to="/perfil" exact>
-            <img className='user-icon' src={userIcon}></img>
-            </NavLink>
-            <NavLink to="/perfil" exact>
-            <h4 className='user'>Perfil</h4>
-            </NavLink>
-
-            {/* pesquisa */}
-            <img className='search-icon' src={searchIcom}></img>
-            <h4 className='search'>Pesquisa</h4>
-
-            {/* configuracao */}
-            <img className='cog-icon' src={cogIcom}></img>
-            <NavLink to="/configuracao" exact>
-            <h4 className='cog'>Configuração</h4>
-            </NavLink>
-
-            <img className='facebook-icon' src={facebookIcon}></img>
-            <img className='instagram-icon' src={instagramIcon}></img>
-
+                    </ul>
+                </div>
+            </div>
+            <div className='div-icons'>
+                <img src={facebookIcon}></img>
+                <img src={instagramIcon}></img>
+            </div>
+            <hr className='line'></hr>
         </div>
+
+
     )
 }

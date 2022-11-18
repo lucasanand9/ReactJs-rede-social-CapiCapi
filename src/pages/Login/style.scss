@@ -1,34 +1,43 @@
 * {
     margin: 0;
+    padding: 0;
 }
 
-.div-login {
-    position: absolute;
-    left: 34%;
-    right: 34%;
-    top: 8.89%;
-    bottom: 8.98%;
-
+.align {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    flex-direction: row;
-    display: flex;
+    align-items: center;
 
-    background: #EBEBEB;
-    border-radius: 3px;
+    width: 100%;
+    height: 100%;
 }
 
-.text-login {
-    position: absolute;
-    top: 45px;
+.div-formLogin {
+    position: relative;
 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 74px;
-    line-height: 127px;
+    height: 75vh;
+    width: 30vw;
+    background-color: #EBEBEB;
+}
+
+.div-title-login {
+    position: relative;
+    flex-direction: column;
     display: flex;
+    justify-content: center;
     align-items: center;
-    text-align: center;
+
+    height: 25vh;
+    width: 30vw;
+}
+
+.title-login {
+    position: relative;
+
+    font-size: 12vh;
+    top: 10px;
 
     background: linear-gradient(180deg, #BE15AD 20.66%, rgba(174, 16, 188, 0) 67.01%), linear-gradient(180deg, #BE15AD 20.66%, rgba(174, 16, 188, 0) 67.01%), linear-gradient(180deg, #BE15AD 16.49%, rgba(174, 16, 188, 0.82) 31.08%, rgba(65, 28, 125, 0.82) 44.62%, rgba(189, 10, 117, 0.93) 58.68%);
     -webkit-background-clip: text;
@@ -37,59 +46,77 @@
     background-blend-mode: darken;
 }
 
-.input-email {
+.div-form {
     position: relative;
-    top: 340px;
-    left: 90px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: start;
 
-    font-family: inter;
-    font-size: 20px;
-    cursor: text;
-    outline: 0;
-
-    width: 70%;
-    height: 40px;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    background-color: #EBEBEB;
-    padding-left: 15px;
+    height: 50vh;
+    width: 30vw;
 }
 
-.input-senha {
-    position: relative;
-    top: 390px;
-    left: 90px;
-
-    font-family: inter;
-    font-size: 20px;
-    cursor: text;
-    outline: 0;
-
-    width: 70%;
-    height: 40px;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    background-color: #EBEBEB;
-    padding-left: 15px;
-}
-
-.button-submit {
+.div-campos {
     position: absolute;
-    left: 23%;
-    right: 23%;
-    top: 70%;
-    bottom: 24.26%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 30vh;
+    width: 30vw;
+}
+
+.div-campos>input {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px transparent black;
+    outline: 0;
+
+    height: 3vw;
+    width: 70%;
+    margin-bottom: 10px;
+    text-indent: 10px;
+
+    background-color: #EBEBEB;
+}
+
+.buttonSubmit {
+    position: absolute;
+
+    height: 5vh;
+    width: 50%;
+    bottom: 15vh;
+
     border: 0;
+    border-radius: 4px;
+    cursor: pointer;
 
     color: white;
-
-    background: #64127A;
-    border-radius: 8px;
-    cursor: pointer;
+    background-color: #64127A;
 }
 
-.button-submit:hover {
-    transform: scale(1.03);
+.buttonSubmit:hover {
+    transform: scale(1.05);
+    background-color: green;
+}
+
+.telaRegistrar {
+    position: absolute;
+    font-size: 2vh;
+    bottom: 10vh;
+}
+
+.div-iconsLogin {
+    position: absolute;
+    display: flex;
+    float: left;
+    left: 40px;
+    bottom: 14px;
+    justify-content: space-between;
+
+    height: 35px;
+    width: 75px;
 }

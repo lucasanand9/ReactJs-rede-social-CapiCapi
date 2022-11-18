@@ -21,12 +21,9 @@ export default function configuracao() {
                 </label>
             </div>
 
-            {/* editar usuario */}
             <NavLink to="/editarUsuario" exact>
                 <h3 className="editar-usuario">Editar usuario</h3>
             </NavLink>
-
-
 
             <button onClick={() => Logout()} className="logout-button">Sair</button>
         </div>

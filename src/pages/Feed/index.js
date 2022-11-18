@@ -8,8 +8,7 @@ return(
     <NavBar/>
     <Post/>
     <Post/>
-    <Post/>
-    <Post/>
+
     </div>
 )
 }

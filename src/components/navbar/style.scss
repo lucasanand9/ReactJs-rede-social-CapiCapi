@@ -9,178 +9,81 @@ $color5: #f80032;
     padding: 0;
 }
 
-.navbar-body {
-    background-color: $color4;
+.div-navBar {
+    position: fixed;
+    flex-wrap: wrap;
+
+    top: 10;
+    width: 20vw;
+    height: 66%;
+}
+
+.div-logo {
+
+    position:static;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 175px;
 }
 
 .logo-img {
-    position: fixed;
-    height: 180px;
-    width: 300px;
-    top: 50px;
-    bottom: 50%;
-    left: 2.5%;
+    height: 90%;
+    width: 90%;
 }
 
-.home-icon {
-    width: 32px;
-    height:32px;
+.div-navegacao{
+    display:flex;
+    justify-content: end;
+    align-items: center;
 
-    position: fixed;
-    left: 6%;
-    right: 93.54%;
-    top: 31.39%;
-    bottom: 65.93%;
+    width: 17vw;
+    height: 100%;
 }
 
-.feed {
-    position: fixed;
-    height: 36px;
-    left: 8.26%;
-    top: 31.33%;
-    bottom: 65.93%;
+.div-navegacao > ul {
+    width: 65%;
+    bottom: 70px;
 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 8%;
-    font-size: 28px;
-    line-height: 36px;
+    position: relative;
+}
+
+.div-navegacao > ul > li {
     display: flex;
     align-items: center;
 
-    color: #64127A;
+    font-size: inter;
+    font-size: 23px;
 }
 
-.feed:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.user-icon {
-    width: 33px;
-    height:33px;
-
-    position: fixed;
-    left: 6%;
-    right: 93.85%;
-    top: 41.2%;
-    bottom: 55.93%;
-}
-
-.user {
-    position: fixed;
-    height: 36px;
-    left: 8.26%;
-    top: 41.06%;
-    bottom: 56%;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 8%;
-    font-size: 25px;
-    line-height: 36px;
+.div-navegacao > ul > li > a{
     display: flex;
-    align-items: center;
+    position: relative;
+    width: 100%;
 
     color: #64127A;
+
+    padding: 10%;
 }
 
-.user:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.search-icon {
-    width: 30px;
-    height:30px;
-
+.line {
     position: fixed;
-    left: 6.1%;
-    right: 93.7%;
-    top: 51.75%;
-    bottom: 45%;
-}
-
-.search {
-    position: fixed;
-    height: 36px;
-    left: 8.26%;
-    top: 51.58%;
-    bottom: 45%;
-    
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 8%;
-    font-size: 25px;
-    line-height: 36px;
-    display: flex;
-    align-items: center;
-
-    color: #64127A;
-}
-
-.search:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.cog-icon {
-    width: 30px;
-    height:30px;
-
-    position: fixed;
-    left: 6%;
-    right: 93.85%;
-    top: 62.3%;
-    bottom: 38.7%;
-}
-
-.cog {
-    position: fixed;
-    height: 36px;
-    left: 8.26%;
-    top: 62.2%;
-    bottom: 38%;
-    
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 8%;
-    font-size: 25px;
-    line-height: 36px;
-    display: flex;
-    align-items: center;
-
-    color: #64127A;
-}
-
-.cog:hover {
-    text-decoration: underline;
-    cursor: pointer;
-
-}
-
-.facebook-icon {
-    position: fixed;
-    top: 93%;
-    bottom: 10%;
-    left: 3.75%;
-}
-
-.instagram-icon {
-    position: fixed;
-    top: 93%;
-    bottom: 10%;
-    left: 6.4%;
-}
-
-.line-vertical {
-    position: fixed;
-    height: 94%;
-    left: 20%;
-    top: 3%;
-    bottom: 3%;
-    border: 1px solid #000000;
-    background-color: #000000;
-    opacity: 40%;
     border-radius: 20px;
+    height: 100%;
+    top: 0;
+    left: 22%;
+
 }
+
+.div-icons {
+    position: fixed;
+    display: flex;
+    height: 35px;
+    width: 78px;
+    flex-direction: row;
+    left: 5%;
+    bottom: 5%;
+    justify-content: space-between;
+}
+
+

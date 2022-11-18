@@ -9,75 +9,209 @@ $color5: #f80032;
     padding: 0;
 }
 
-.div-postagem {
+.div-postagem-margin {
     position: relative;
-    left: 35%;
-    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    background-color:rgba(210, 45, 214, 0.16);;
-    height: 500px;
-    width: 500px;
+    margin-bottom: 8px;
+    left: 22%;
+    top: 26vh;
 
-    border-radius: 20px;
+    height: 100vh;
+    width: 78%;
 }
 
-.img-usuario {
+.div-post-body {
     position: relative;
-    height: 50px;
-    width: 50px;
-    top: 15px;
-    left: 25px;
+
+    border-radius: 3px;
+
+    height: 90vh;
+    width: 51%;
+    background-color: rgba(87, 87, 87, 0.16);
 }
 
-.username {
+.div-imgPerfil-nome {
     position: relative;
-    left: 84px;
-    bottom: 20px;
+    display: flex;
 
-    font-family: 'Inter';
-    font-style: normal;
-    
-    color: #64127A ;
-    font-size: 20px;
+    height: 11vh;
+    width: 100%;
 }
 
-.line-horizontal-top {
-    position: absolute;
-    width: 90%;
-    top: 70px;
-    left: 4%;
+.div-imgPerfil {
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 
-    border: 1px solid #000000;
-    background-color: #000000;
-    opacity: 40%;
-    border-radius: 20px;
+    height: 11vh;
+    width: 15%;
 }
 
-.div-legend-post {
+.imgPerfil {
     position: relative;
-    top: 14px;
 
+    height: 10vh;
+    width: 74%;
 }
 
-.legend-post {
+.div-titlePerfil {
     position: relative;
-    height: 340px;
-    width: 430px;
-    left: 7.4%;
-    
+    flex-direction: column;
+    display: flex;
+    justify-content:flex-end;
+    align-items:stretch;
 
-    font-family: 'Inter';
-    font-style: normal;
+    height: 9vh;
+    width: 85%;
+}
+
+.titlePerfil {
+    text-indent: 7px;
+    font-size: 1.5vw;
+    font-family: 'inter';
+}
+
+.div-imgPost {
+    position: relative;
+
+    height: 58vh;
+    width: 100%;
+}
+
+.img-post {
+    position: relative;
+
+    height: 100%;
+    width: 100%;
+}
+
+.div-textPost {
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 13vh;
+    width: 100%;
+}
+
+.div-text { 
+    position: relative;
+
+    height: 10vh;
+    width: 93%;
+}
+
+.text-legend {
+    position: relative;
     overflow-wrap: break-word;
+
+    font-size: 1.2vw;
 }
 
-.line-horizontal-bottom {
-    position: absolute;
-    width: 99.6%;
-    bottom: 50px;
+.div-likeCommentPost {
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-    border: 1px solid #000000;
-    background-color: #000000;
-    opacity: 40%;
-    border-radius: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+
+    height: 8vh;
+    width: 100%;
+}
+
+.div-likeCurtir {
+    position: relative;
+    display: flex;
+
+    margin-left: 10px;
+
+    height: 6vh;
+    width: 33%;
+}
+
+.div-iconLike {
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 6vh;
+    width: 28%;
+}
+
+.iconLike {
+    position: relative;
+
+    height: 30px;
+    width: 30px;
+}
+
+.divCurtir {
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+
+    height: 6vh;
+    width: 72%;
+}
+
+.curtir {
+    font-size: 1.2vw;
+}
+
+.div-commentComentar {
+    position: relative;
+    display: flex;
+
+    margin-right: 16px;
+
+    height: 6vh;
+    width: 20%;
+}
+
+.div-iconComment {
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 6vh;
+    width: 35%;
+}
+
+.div-comentar {
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+    height: 6vh;
+    width: 65%;
+}
+
+.iconComentar {
+    position: relative;
+    top: 1px;
+
+    height: 30px;
+    width: 30px;
+}
+
+.comentar {
+    font-size: 1.2vw;
 }

@@ -36,7 +36,7 @@
 .title-login {
     position: relative;
 
-    font-size: 12vh;
+    font-size: 10vh;
     top: 10px;
 
     background: linear-gradient(180deg, #BE15AD 20.66%, rgba(174, 16, 188, 0) 67.01%), linear-gradient(180deg, #BE15AD 20.66%, rgba(174, 16, 188, 0) 67.01%), linear-gradient(180deg, #BE15AD 16.49%, rgba(174, 16, 188, 0.82) 31.08%, rgba(65, 28, 125, 0.82) 44.62%, rgba(189, 10, 117, 0.93) 58.68%);
@@ -68,11 +68,10 @@
     width: 30vw;
 }
 
-.div-campos>input {
+.div-campos > input {
     border-top: 0;
     border-left: 0;
-    border-right: 0;
-    border-bottom: 1px transparent black;
+    border-right: 0; 
     outline: 0;
 
     height: 3vw;
@@ -83,12 +82,12 @@
     background-color: #EBEBEB;
 }
 
-.buttonSubmit {
+.buttonCadastro {
     position: absolute;
 
     height: 5vh;
     width: 50%;
-    bottom: 15vh;
+    bottom: 12vh;
 
     border: 0;
     border-radius: 4px;
@@ -98,25 +97,13 @@
     background-color: #64127A;
 }
 
-.buttonSubmit:hover {
+.buttonCadastro:hover {
     transform: scale(1.05);
     background-color: green;
 }
 
-.telaRegistrar {
+.telaLogin {
     position: absolute;
-    font-size: 2vh;
-    bottom: 10vh;
-}
-
-.div-iconsLogin {
-    position: absolute;
-    display: flex;
-    float: left;
-    left: 40px;
-    bottom: 14px;
-    justify-content: space-between;
-
-    height: 35px;
-    width: 75px;
+    font-size: 2vh;     
+    bottom: 8vh;
 }

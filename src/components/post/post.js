@@ -8,7 +8,6 @@ import iconComment from './icons/comment.png';
 
 export default function post() {
     return (
-        <div className='div-postagem-margin'>
 
             <div className='div-post-body'>
 
@@ -52,6 +51,6 @@ export default function post() {
 
             </div>
 
-        </div>
+      
     )
 }

@@ -35,22 +35,23 @@
 
 .nome-perfil{
     position: absolute;
-    margin-top: 39vh;
+    margin-top: 2vh;
     border-bottom: solid 2px #64127A;
 
 }
 
 .postagens-perfil{
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
     width: 80%;
+    height: auto;
 
 }
 
 .filtro-perfil{
-    width: 15%; 
+    width: 100%; 
     text-align: center;
     align-items: center;
+    background-color: #64127A;
 
 }
 
@@ -63,9 +64,8 @@
 }
 
 .trabalhos-perfil{
+    width: 100%;
     display: flex;
-    width: 85%;
-    justify-content: start;
-    align-items: flex-start;
-  
+    background-color: aquamarine;
+    
 }

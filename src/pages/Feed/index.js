@@ -4,10 +4,12 @@ import Post from '../../components/post/post'
 
 export default function Feed(){
 return(
-    <div>
-        <div className='nav-bar-feed'><NavBar/></div>
+    <div className='div-feed'>
+        
+        <NavBar/>
+        
         <div className='div-postagem-margin'>
-            <Post/>
+            {/* <Post/> arrumar o post */}
         </div>
 
     </div>

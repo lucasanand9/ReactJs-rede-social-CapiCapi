@@ -18,10 +18,10 @@ export default function navbar() {
                 </div>
                 <div className='div-navegacao'>
                     
-                <Link to='/' className='icones-navbar'>  <img src={homeIcon}/>  Feed </Link>
-                <Link to='/perfil' className='icones-navbar'>   <img src={userIcon}/>   Perfil </Link>
-                <Link to='/pesquisa' className='icones-navbar'>   <img src={searchIcom}/>  Pesquisa </Link>
-                <Link to='/configuracao' className='icones-navbar'>   <img src={cogIcom}/>  Configuração </Link>
+                <Link to='/' className='icones-navbar'>  <img src={homeIcon} />  Feed </Link>
+                <Link to='/perfil' className='icones-navbar'>   <img src={userIcon} />   Perfil </Link>
+                <Link to='/pesquisa' className='icones-navbar'>   <img src={searchIcom} />  Pesquisa </Link>
+                <Link to='/configuracao' className='icones-navbar'>   <img src={cogIcom} />  Configuração </Link>
                     
                    
                 </div>

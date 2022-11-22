@@ -1,10 +1,35 @@
-.nav-bar-feed{
-    width: auto;
-    height: 100vh;
-    position: fixed;
-}
-
 .div-feed{
     display: flex;
     justify-content: space-between;
+    
+    width: 100vw;
+    height: 100vh;
 }
+
+.postagem-feed{
+    display: block;
+    overflow-x: hidden;
+    width: 65vw;
+    height: 100vh;
+}
+
+.div-add-postagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+.add-postagem{
+    width: 20vw;
+    height: 5vh;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    background-color: #3af249;
+}
+
+.add-postagem:hover{
+    margin-left: 2px;
+    margin-bottom: 4px;
+}
+

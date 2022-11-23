@@ -1,24 +1,29 @@
 .div-feed{
     display: flex;
-    justify-content: space-between;
-    
     width: 100vw;
     height: 100vh;
 }
+.navbar-feed{
+    width: 20vw;
+}
 
 .postagem-feed{
-    display: block;
-    overflow-x: hidden;
-    width: 65vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 .div-add-postagem{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10vh;
+    height: 10%;
+    width: 100%;
 }
+
 .add-postagem{
     width: 20vw;
     height: 5vh;
@@ -31,5 +36,9 @@
 .add-postagem:hover{
     margin-left: 2px;
     margin-bottom: 4px;
+}
+
+.div-post-feed{
+    display: block;
 }
 

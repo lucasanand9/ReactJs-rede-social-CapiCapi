@@ -26,27 +26,20 @@ export default function post() {
 
                 <div className='div-textPost'>
                     <div className='div-text'>
-                        <p className='text-legend'>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+                        <p className='text-legend'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                 </div>
 
                 <div className='div-likeCommentPost'>
-                    <div className='div-likeCurtir'>
-                        <div className='div-iconLike'>
+                
+                        <div className='div-Like'>
                             <img className='iconLike' src={iconLike}></img>
                         </div>
-                        <div className='divCurtir'>
-                            <p className='curtir'>Curtir</p>
-                        </div>
-                    </div>
-                    <div className='div-commentComentar'>
-                        <div className='div-iconComment'>
+
+                        <div className='div-Comentar'>
                             <img className='iconComentar' src={iconComment}></img>
+
                         </div>
-                        <div className='div-comentar'>
-                            <p className='comentar'>Comentar</p>
-                        </div>
-                    </div>
                 </div>
 
             </div>

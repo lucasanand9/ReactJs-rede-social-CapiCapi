@@ -13,8 +13,8 @@ export default function perfil() {
 
             <div className='conteudo-perfil'>
                 <div className='card-perfil'>
-                    <div className='nome-perfil'><h2>AAAAAAAA</h2></div>
                     <div className='img-perfil'></div>
+                    <div className='nome-perfil'><h3>AAAAAAAA</h3></div>
                 </div>
 
                 <div className="postagens-perfil">
@@ -29,7 +29,9 @@ export default function perfil() {
                         </select>
                     </div>
                     <div className="trabalhos-perfil">
-                            {/* <Postagen/> */}
+                            <Postagen/>
+                            <Postagen/>
+                            <Postagen/>
                     </div>
                 </div>
 

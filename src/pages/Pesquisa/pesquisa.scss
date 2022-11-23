@@ -1,0 +1,22 @@
+.pesquisa-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.navbar-pesquisa{
+    width: 20vw;
+    height: 100%;
+}
+
+.conteudo-pesquisa{
+    width: 80vw;
+    height: 100%;
+    background-color: red;
+}
+
+.campo-pesquisa{
+    width: 100%;
+    height: 10%;
+    background-color: aqua;
+}

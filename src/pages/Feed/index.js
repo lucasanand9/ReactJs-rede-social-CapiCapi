@@ -7,15 +7,19 @@ export default function Feed(){
 return(
     
     <div className='div-feed'>
-        <div>
+        <div className='navbar-feed'>
             <NavBar/>  
         </div>
         <div className='postagem-feed'>
             <div className='div-add-postagem'>
                 <button  className='add-postagem'>Adicionar Postagem</button>
             </div>
-
-            <Post/>
+            <div className='div-post-feed'>
+                <Post/>
+                <Post/>
+                <Post/>
+            </div>
+            
 
 
         </div>

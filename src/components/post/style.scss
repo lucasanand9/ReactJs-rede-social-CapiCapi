@@ -1,30 +1,23 @@
-$color1: #d10382;
-$color2: #8300d2;
-$color3: #ea0056;
-$color4: #4d00ef;
-$color5: #f80032;
 
 * {
     margin: 0;
     padding: 0;
 }
 
-
-
 .div-post-body {
-    position: relative;
-
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     border-radius: 3px;
-
-    height: 90vh;
-    width: 51%;
-    background-color: rgba(87, 87, 87, 0.16);
+    height: 80vh;
+    width: 30vw;
+    background-color: #d3d3d3;
+    margin-top: 5%;
 }
 
 .div-imgPerfil-nome {
     position: relative;
     display: flex;
-
     height: 11vh;
     width: 100%;
 }
@@ -42,7 +35,6 @@ $color5: #f80032;
 
 .imgPerfil {
     position: relative;
-
     height: 10vh;
     width: 74%;
 }
@@ -53,7 +45,6 @@ $color5: #f80032;
     display: flex;
     justify-content:flex-end;
     align-items:stretch;
-
     height: 9vh;
     width: 85%;
 }
@@ -65,140 +56,82 @@ $color5: #f80032;
 }
 
 .div-imgPost {
-    position: relative;
-
-    height: 58vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
+    height: 60%;
 }
 
 .img-post {
-    position: relative;
-
     height: 100%;
     width: 100%;
 }
 
 .div-textPost {
-    position: relative;
-    flex-direction: column;
     display: flex;
     justify-content: center;
-    align-items: center;
-
-    height: 13vh;
-    width: 100%;
+    align-items: flex-start;
+    width: auto;
+    height: 15%;
+    
+    
 }
 
 .div-text { 
-    position: relative;
-
-    height: 10vh;
-    width: 93%;
+    width: 95%;
+    height: 100%;
+    overflow-wrap: break-word;
 }
 
 .text-legend {
-    position: relative;
-    overflow-wrap: break-word;
-
-    font-size: 1.2vw;
+    width: 100%;
+    height: 100%;
+    font-size: .9rem;
 }
 
 .div-likeCommentPost {
-    position: relative;
-    flex-direction: row;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
 
     border-top: 1px solid rgba(0, 0, 0, 0.3);
 
-    height: 8vh;
+    height: 10%;
     width: 100%;
 }
 
-.div-likeCurtir {
-    position: relative;
+.div-Like {
     display: flex;
-
-    margin-left: 10px;
-
-    height: 6vh;
-    width: 33%;
-}
-
-.div-iconLike {
-    position: relative;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
     align-items: center;
-
-    height: 6vh;
-    width: 28%;
+ justify-content: center;
+    height: 100%;
+    width: 40%;
 }
+
 
 .iconLike {
-    position: relative;
-
-    height: 30px;
-    width: 30px;
+width: 30px;
+height: 30px;
 }
 
-.divCurtir {
-    position: relative;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-
-    height: 6vh;
-    width: 72%;
+.iconLike:hover {
+ cursor: pointer;
 }
 
-.curtir {
-    font-size: 1.2vw;
-}
-
-.div-commentComentar {
-    position: relative;
-    display: flex;
-
-    margin-right: 16px;
-
-    height: 6vh;
-    width: 20%;
-}
-
-.div-iconComment {
-    position: relative;
-    flex-direction: column;
+.div-Comentar {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    height: 6vh;
-    width: 35%;
-}
-
-.div-comentar {
-    position: relative;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-
-    height: 6vh;
-    width: 65%;
+    height: 100%;
+    width: 40%;
 }
 
 .iconComentar {
-    position: relative;
-    top: 1px;
-
     height: 30px;
     width: 30px;
 }
 
-.comentar {
-    font-size: 1.2vw;
+.iconComentar:hover{
+    cursor: pointer;
 }

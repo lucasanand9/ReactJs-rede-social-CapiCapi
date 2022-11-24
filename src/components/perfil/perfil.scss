@@ -1,0 +1,24 @@
+.div-perfil-pesquisa{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    width: 50%;
+    height: 10vh;
+    background-color: rgb(216, 216, 216);
+    border-radius: 10px;
+}
+
+.foto-perfil-pesquisa{
+    height: 8vh;
+    width: 8vh;
+    background-color: purple;
+    border-radius: 50%;
+}
+.nome-perfil-pesquisa{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 8vh;
+    font-size: large;
+}
